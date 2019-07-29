@@ -19,10 +19,11 @@ myAlgorithm = ea.moea_NSGA2_templet(problem, population) # 实例化一个算法
 myAlgorithm.MAXGEN = 200 # 最大遗传代数
 """=======================调用算法模板进行种群进化=============================="""
 NDSet = myAlgorithm.run() # 执行算法模板，得到帕累托最优解集NDSet，直接输出解集
+print(population.FitnV)
 # 输出
-print('用时：%s 秒'%(myAlgorithm.passTime))
-print('非支配个体数：%s 个'%(NDSet.sizes))
-print(NDSet.Phen.shape)
-print(NDSet.Phen)
+#print('用时：%s 秒'%(myAlgorithm.passTime))
+#print('非支配个体数：%s 个'%(NDSet.sizes))
+#print(NDSet.Phen.shape)
+#print(NDSet.Phen)
 #patore
-print('单位时间找到帕累托前沿点个数：%s 个'%(int(NDSet.sizes // myAlgorithm.passTime)))
+#print('单位时间找到帕累托前沿点个数：%s 个'%(int(NDSet.sizes // myAlgorithm.passTime)))
