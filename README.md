@@ -11,3 +11,9 @@ whether is helpful.  JUST in the `doc`.
 -------
   in the `一些注释`, I added some my understanding into the raw codes. Maybe helpful,
 maybe not.
+
+-------
+  in the `test.py`, I added some explainments into the raw codes which are about the usage in
+the AG. I think it is similiar with this problem.
+
+ 
