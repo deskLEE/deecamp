@@ -16,4 +16,8 @@ maybe not.
   in the `test.py`, I added some explainments into the raw codes which are about the usage in
 the AG. I think it is similiar with this problem.
 
+
+-------
+  in the `excel表格`中，I just simulate some processes in the ORS, you can see some details than results.
+  Also, you can check your works by this excel. Through this work, you can see the influence is the biggest numbers.
  
